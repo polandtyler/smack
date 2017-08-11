@@ -229,6 +229,9 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginPressed:" destination="vZb-ib-Ytt" eventType="touchUpInside" id="Al4-vG-UsR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJy-IQ-DdX">
                                 <rect key="frame" x="331" y="28" width="28" height="28"/>
@@ -250,6 +253,10 @@
                                     <segue destination="rjb-a2-l2Z" kind="show" identifier="toCreate" id="Wsd-Sd-1hD"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Ljc-uE-qbS">
+                                <rect key="frame" x="168.5" y="215" width="37" height="37"/>
+                                <color key="color" red="0.23918554186820984" green="0.33153551816940308" blue="0.75311797857284546" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -258,13 +265,20 @@
                             <constraint firstItem="ET7-UY-2oR" firstAttribute="top" secondItem="pQt-b7-ziG" secondAttribute="bottom" constant="40" id="Foc-oI-Ufu"/>
                             <constraint firstItem="ET7-UY-2oR" firstAttribute="centerX" secondItem="atr-BQ-Iit" secondAttribute="centerX" id="OWR-uW-JOV"/>
                             <constraint firstItem="Hy0-HA-7hA" firstAttribute="top" secondItem="ET7-UY-2oR" secondAttribute="bottom" constant="5" id="RUu-58-saV"/>
+                            <constraint firstItem="Ljc-uE-qbS" firstAttribute="centerX" secondItem="atr-BQ-Iit" secondAttribute="centerX" id="TA8-HO-R9p"/>
                             <constraint firstItem="pQt-b7-ziG" firstAttribute="top" secondItem="ESY-Zp-hvD" secondAttribute="bottom" constant="40" id="TY3-mA-HME"/>
+                            <constraint firstItem="Ljc-uE-qbS" firstAttribute="centerY" secondItem="atr-BQ-Iit" secondAttribute="centerY" constant="-100" id="XaE-YD-wkt"/>
                             <constraint firstItem="ESY-Zp-hvD" firstAttribute="top" secondItem="1ab-fO-TQw" secondAttribute="bottom" constant="60" id="iUW-P9-HKS"/>
                             <constraint firstItem="Hy0-HA-7hA" firstAttribute="centerX" secondItem="atr-BQ-Iit" secondAttribute="centerX" id="slr-70-yX7"/>
                             <constraint firstItem="pQt-b7-ziG" firstAttribute="centerX" secondItem="atr-BQ-Iit" secondAttribute="centerX" id="wdL-ts-SSN"/>
                             <constraint firstItem="RJy-IQ-DdX" firstAttribute="trailing" secondItem="atr-BQ-Iit" secondAttribute="trailingMargin" id="x9y-1c-Tnt"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordTxt" destination="Rfd-1F-h3D" id="RFY-v2-cdr"/>
+                        <outlet property="spinner" destination="Ljc-uE-qbS" id="qdn-47-9yc"/>
+                        <outlet property="usernameTxt" destination="PRN-xi-bN7" id="js7-kF-dSx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xx8-1H-sCH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
