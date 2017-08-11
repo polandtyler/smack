@@ -11,6 +11,8 @@
 		3B2AE09F1F3C10DF000664ED /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AE09E1F3C10DF000664ED /* AvatarPickerVC.swift */; };
 		3B2AE0A11F3C12AC000664ED /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AE0A01F3C12AC000664ED /* AvatarCell.swift */; };
 		3B2AE0A31F3C2772000664ED /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AE0A21F3C2772000664ED /* CircleImage.swift */; };
+		3B2AE0A61F3D13F1000664ED /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AE0A41F3D13F1000664ED /* ProfileVC.swift */; };
+		3B2AE0A71F3D13F1000664ED /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B2AE0A51F3D13F1000664ED /* ProfileVC.xib */; };
 		3B3C84E91F3946E500FC137C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C84E81F3946E500FC137C /* AppDelegate.swift */; };
 		3B3C84EE1F3946E500FC137C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C84EC1F3946E500FC137C /* Main.storyboard */; };
 		3B3C84F01F3946E500FC137C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C84EF1F3946E500FC137C /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		3B2AE09E1F3C10DF000664ED /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		3B2AE0A01F3C12AC000664ED /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		3B2AE0A21F3C2772000664ED /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3B2AE0A41F3D13F1000664ED /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		3B2AE0A51F3D13F1000664ED /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		3B3C84E51F3946E500FC137C /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3C84E81F3946E500FC137C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B3C84ED1F3946E500FC137C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +79,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3B2AE0A81F3D1414000664ED /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				3B2AE0A51F3D13F1000664ED /* ProfileVC.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
 		3B3C84DC1F3946E400FC137C = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +108,7 @@
 		3B3C84E71F3946E500FC137C /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				3B2AE0A81F3D1414000664ED /* XIBs */,
 				3BEA2DF31F3B9F24009A73B5 /* Services */,
 				3B77BA311F396A0C00E45DCC /* Utilities */,
 				3B77BA291F39506F00E45DCC /* Model */,
@@ -124,11 +137,12 @@
 		3B77BA281F39506900E45DCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3B2AE09E1F3C10DF000664ED /* AvatarPickerVC.swift */,
 				3B77BA2B1F3950A800E45DCC /* ChatVC.swift */,
 				3B77BA2D1F3950B800E45DCC /* ChannelVC.swift */,
-				3B77BA341F39722E00E45DCC /* LoginVC.swift */,
 				3B5C2B171F397EFF00810A96 /* CreateAccountVC.swift */,
-				3B2AE09E1F3C10DF000664ED /* AvatarPickerVC.swift */,
+				3B77BA341F39722E00E45DCC /* LoginVC.swift */,
+				3B2AE0A41F3D13F1000664ED /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -143,10 +157,10 @@
 		3B77BA2A1F39507400E45DCC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3B77BA2F1F3954DE00E45DCC /* GradientView.swift */,
-				3BEA2DF61F3BF919009A73B5 /* RoundedButton.swift */,
 				3B2AE0A01F3C12AC000664ED /* AvatarCell.swift */,
 				3B2AE0A21F3C2772000664ED /* CircleImage.swift */,
+				3B77BA2F1F3954DE00E45DCC /* GradientView.swift */,
+				3BEA2DF61F3BF919009A73B5 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -238,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2AE0A71F3D13F1000664ED /* ProfileVC.xib in Resources */,
 				3B3C84F31F3946E500FC137C /* LaunchScreen.storyboard in Resources */,
 				3B3C84F01F3946E500FC137C /* Assets.xcassets in Resources */,
 				3B3C84EE1F3946E500FC137C /* Main.storyboard in Resources */,
@@ -299,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2AE0A61F3D13F1000664ED /* ProfileVC.swift in Sources */,
 				3B77BA2E1F3950B800E45DCC /* ChannelVC.swift in Sources */,
 				3B2AE09F1F3C10DF000664ED /* AvatarPickerVC.swift in Sources */,
 				3BEA2DF71F3BF919009A73B5 /* RoundedButton.swift in Sources */,
