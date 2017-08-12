@@ -31,6 +31,7 @@
 		3B77BA351F39722E00E45DCC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B77BA341F39722E00E45DCC /* LoginVC.swift */; };
 		3BEA2DF51F3B9F3B009A73B5 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA2DF41F3B9F3B009A73B5 /* AuthService.swift */; };
 		3BEA2DF71F3BF919009A73B5 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA2DF61F3BF919009A73B5 /* RoundedButton.swift */; };
+		3BFB31551F3D7FBD00BE1582 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB31541F3D7FBD00BE1582 /* SocketService.swift */; };
 		CDAC1CADA120997301148985 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC1419E3AFE95CECFBB2D8 /* UserDataService.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		3B77BA341F39722E00E45DCC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		3BEA2DF41F3B9F3B009A73B5 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		3BEA2DF61F3BF919009A73B5 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		3BFB31541F3D7FBD00BE1582 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		5AF642FE01C6BA52B92C8DF6 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D51E0EAB69E3878EB2C276 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		CDAC1419E3AFE95CECFBB2D8 /* UserDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				3BEA2DF41F3B9F3B009A73B5 /* AuthService.swift */,
 				CDAC1419E3AFE95CECFBB2D8 /* UserDataService.swift */,
 				3B2AE0A91F3D57DD000664ED /* MessageService.swift */,
+				3BFB31541F3D7FBD00BE1582 /* SocketService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFB31551F3D7FBD00BE1582 /* SocketService.swift in Sources */,
 				3B2AE0A61F3D13F1000664ED /* ProfileVC.swift in Sources */,
 				3B2AE0AE1F3D72F9000664ED /* ChannelCell.swift in Sources */,
 				3B77BA2E1F3950B800E45DCC /* ChannelVC.swift in Sources */,
