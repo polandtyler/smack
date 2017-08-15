@@ -22,6 +22,7 @@
 		3B3C84EE1F3946E500FC137C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C84EC1F3946E500FC137C /* Main.storyboard */; };
 		3B3C84F01F3946E500FC137C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C84EF1F3946E500FC137C /* Assets.xcassets */; };
 		3B3C84F31F3946E500FC137C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C84F11F3946E500FC137C /* LaunchScreen.storyboard */; };
+		3B5776251F42AADB00794A47 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5776241F42AADB00794A47 /* MessageCell.swift */; };
 		3B5C2B181F397EFF00810A96 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5C2B171F397EFF00810A96 /* CreateAccountVC.swift */; };
 		3B77BA271F394DE600E45DCC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B77BA261F394DE600E45DCC /* SWRevealViewController.m */; };
 		3B77BA2C1F3950A800E45DCC /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B77BA2B1F3950A800E45DCC /* ChatVC.swift */; };
@@ -55,6 +56,7 @@
 		3B3C84EF1F3946E500FC137C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B3C84F21F3946E500FC137C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B3C84F41F3946E500FC137C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5776241F42AADB00794A47 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		3B5C2B171F397EFF00810A96 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		3B77BA241F394DE500E45DCC /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		3B77BA251F394DE500E45DCC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Desktop/assets/Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				3B77BA2F1F3954DE00E45DCC /* GradientView.swift */,
 				3BEA2DF61F3BF919009A73B5 /* RoundedButton.swift */,
 				3B2AE0AD1F3D72F9000664ED /* ChannelCell.swift */,
+				3B5776241F42AADB00794A47 /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				3B2AE0AE1F3D72F9000664ED /* ChannelCell.swift in Sources */,
 				3B77BA2E1F3950B800E45DCC /* ChannelVC.swift in Sources */,
 				3B2AE09F1F3C10DF000664ED /* AvatarPickerVC.swift in Sources */,
+				3B5776251F42AADB00794A47 /* MessageCell.swift in Sources */,
 				3BEA2DF71F3BF919009A73B5 /* RoundedButton.swift in Sources */,
 				3BAEA4F71F424AC2006E5EF8 /* Message.swift in Sources */,
 				3B2AE0AC1F3D5904000664ED /* Channel.swift in Sources */,
