@@ -103,10 +103,7 @@ class ChatVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBAction func sendMessagePressed(_ sender: Any) {
         if AuthService.instance.isLoggedIn {
             guard let channelId = MessageService.instance.selectedChannel?.id else { return }
-            print("channelId: \(channelId)")
             guard let message = messageTxtBox.text else { return }
-            print("message: \(message)")
-            print("id: \(UserDataService.instance.id)")
             
             SocketService.instance.addMessage(messageBody: message, userId: UserDataService.instance.id, channelId: channelId, completion: { (success) in
                 if success {
